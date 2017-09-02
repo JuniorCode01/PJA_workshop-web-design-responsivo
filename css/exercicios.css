@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container {
+    margin: 0 auto;
+	max-width: 1200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.secao {
+	width: 33.333%;
+}
+
+.mini {
+    width: 50%;
+    float: left;
+}
+
+.logo,
+.secao {
+    padding: 0 1%;
+}
+
+.logo,
+.busca,
+.barra-nav,
+.menu-principal {
+	display: inline-block;
+    vertical-align: middle;
+}
