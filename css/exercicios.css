@@ -10,7 +10,7 @@ img {
 }
 
 .secao {
-	width: 33.333%;
+	width: 33.33%;
 }
 
 .mini {
@@ -29,4 +29,8 @@ img {
 .menu-principal {
 	display: inline-block;
     vertical-align: middle;
+}
+
+.menu-principal li {
+    float: left;
 }
