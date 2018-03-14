@@ -1,56 +1,10 @@
-@charset "UTF-8";
-
-.container {
-    margin: 0 auto;
-	max-width: 1200px;
-}
-
-img {
-    max-width: 100%;
-}
-
+/* Estilo feito seguindo os exrcícios desse curso */
 .secao {
-	width: 100%;
+    float: left;
+    width: 33.333%;
 }
 
 .mini {
+    float: left;
     width: 50%;
-    float: left;
-}
-
-.logo,
-.secao {
-    padding: 0 1%;
-}
-
-.logo,
-.busca,
-.barra-nav,
-.menu-principal {
-	display: inline-block;
-    vertical-align: middle;
-}
-
-.menu-principal li {
-    float: left;
-}
-
-@media (min-width: 600px) {
-	html {
-		font-size: 1.125em;
-	}
-	.secao {
-		width: 50%;
-        float: left;
-	}
-}
-
-@media (min-width: 1000px) {
-	html {
-		font-size: 1.25em;
-	}
-	.secao {
-		width: 33.33%;
-        float: left;
-	}
 }
