@@ -1,7 +1,47 @@
 /* Estilo feito seguindo os exrcícios desse curso */
+
+img {
+    max-width: 100%;
+}
+
+/* Conteúdo do Header */
+header {
+    padding: 0.5em 0;
+}
+
+.logo,
+.barra-nav,
+.menu-principal,
+.busca {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-principal li {
+    float: left;
+}
+
+.barra-nav {
+    margin: .4em 0;
+}
+
+/* conteúdo do main */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo,
+.secao {
+    padding: 0 1%;
+}
 .secao {
     float: left;
     width: 33.333%;
+}
+
+.destaques {
+    margin-top: 1em;
 }
 
 .mini {
