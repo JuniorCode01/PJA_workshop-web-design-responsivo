@@ -98,6 +98,14 @@ header {
         padding: 1em 0;
         width: 100%;
     }
+
+    .menu-abrir,
+    .menu-fechar {
+        font-size: 2em;
+        margin-left: .5em;
+        vertical-align: middle;
+        display: inline-block;
+    }
 }
 
 @media not all and (max-width: 600px) {
