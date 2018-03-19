@@ -101,10 +101,36 @@ header {
 
     .menu-abrir,
     .menu-fechar {
-        font-size: 2em;
-        margin-left: .5em;
+        font-size: 1.6em;
+        outline: 0;
+        border: 0;
+        background: none;
+        -webkit-appearance: none;
+        text-indent: -999em;
+    }
+
+    .menu-abrir {
+        height: 0;
+        width: .75em;
+        padding-top: .125em;
+        border-top: .375em double #000;
+        border-bottom: .125 solid #000;
+
         vertical-align: middle;
-        display: inline-block;
+        margin: 0.5em;
+    }
+
+    .menu-fechar {
+        position: relative;
+        height: 1em;
+        width: 1em;        
+    }
+    .menu-fechar:before {
+        content: "\00D7";
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-indent: 0;
     }
 }
 
