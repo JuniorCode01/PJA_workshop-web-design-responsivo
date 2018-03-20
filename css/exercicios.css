@@ -114,7 +114,7 @@ header {
         width: .75em;
         padding-top: .125em;
         border-top: .375em double #000;
-        border-bottom: .125 solid #000;
+        border-bottom: .125em solid #000;
 
         vertical-align: middle;
         margin: 0.5em;
